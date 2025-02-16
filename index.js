@@ -1,3 +1,4 @@
+const PORT = process.env.PORT || 3000; // Render একটি Port সেট করবে
 const makeWASocket = require("@whiskeysockets/baileys").default;
 const { useMultiFileAuthState } = require("@whiskeysockets/baileys");
 const pino = require("pino");
