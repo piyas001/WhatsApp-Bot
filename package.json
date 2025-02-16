@@ -8,9 +8,10 @@
     "dev": "nodemon index.js"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.5.0",
+    "@whiskeysockets/baileys": "^6.6.0",
     "pino": "^8.15.0",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1" 
   },
   "devDependencies": {
     "nodemon": "^3.0.2"
@@ -18,6 +19,6 @@
   "engines": {
     "node": ">=16.0.0"
   },
-  "author": "Your Name",
+  "author": "Rahul",
   "license": "MIT"
 }
